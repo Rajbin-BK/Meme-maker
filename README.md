@@ -3,6 +3,7 @@
 Welcome to the Fine Art Meme Maker project! This application allows users to create memes using famous paintings as backgrounds.
 
 Table of Contents
+
         Overview
         Features
         Installation
@@ -39,8 +40,8 @@ Ensure PHP is installed and configured properly in your WAMP environment.
 
 Installation Steps
 Clone the repository:
+
         bash
-        Copy code
         git clone https://github.com/your/repository.git
         cd repository-folder
         
@@ -51,6 +52,7 @@ C:\wamp\www\fine-art-meme-maker\
 Start WAMP Server and ensure it's running correctly.
 
 Access the application via your web browser:
+
         arduino
         http://localhost/fine-art-meme-maker/index.html
         
@@ -73,37 +75,38 @@ File Structure
 graphql
 Copy code
 fine-art-meme-maker/
-│
-├── index.html               # Main HTML page with meme creation form
-├── ch12-proj3-result.php    # PHP script to process meme creation
-├── css/
-│   └── ch12-proj3.css       # CSS file for styling
-│
-├── js/
-│   └── ch12-proj3.js        # JavaScript file for client-side functionality
-│
-├── data.inc.php             # PHP file containing paintings data array
-│
-└── README.md                # This README file
+
+        │
+        ├── index.html               # Main HTML page with meme creation form
+        ├── ch12-proj3-result.php    # PHP script to process meme creation
+        ├── css/
+        │   └── ch12-proj3.css       # CSS file for styling
+        │
+        ├── js/
+        │   └── ch12-proj3.js        # JavaScript file for client-side functionality
+        │
+        ├── data.inc.php             # PHP file containing paintings data array
+        │
+        └── README.md                # This README file
 
 Data
 The data.inc.php file contains an array of paintings used in the application. Each painting entry includes title, artist, and filename.
 
-php
-<?php 
-$paintings = [
-   [ "title"=>"Woman with a Parasol", "artist"=>"Claude Monet", "filename"=>"017040" ],
-   [ "title"=>"Portrait of a young women", "artist"=>"Therese Schwartze", "filename"=>"130010" ],
-   [ "title"=>"Three girls from Amsterdam Orphanage", "artist"=>"Therese Schwartze", "filename"=>"130020" ],
-   [ "title"=>"The Bridge at Argenteuile", "artist"=>"Claude Monet", "filename"=>"017080" ],
-   [ "title"=>"Self Portrait", "artist"=>"Vincent Van Gogh", "filename"=>"019170" ],
-   [ "title"=>"Madame Bergeret", "artist"=>"Francois Boucher", "filename"=>"107030" ],
-   [ "title"=>"Interior with Women beside a Linen Cupboard", "artist"=>"Pieter de Hooch", "filename"=>"126020" ],
-   [ "title"=>"The Merry Family", "artist"=>"Jan Steen", "filename"=>"124020" ],
-   [ "title"=>"Self Portrait", "artist"=>"Judith Leyster", "filename"=>"112020" ],
-   [ "title"=>"Portrait of Feyntje van Steenkiste", "artist"=>"Frans Hals", "filename"=>"123020" ]   
-];
-?>
+        php
+        <?php 
+        $paintings = [
+           [ "title"=>"Woman with a Parasol", "artist"=>"Claude Monet", "filename"=>"017040" ],
+           [ "title"=>"Portrait of a young women", "artist"=>"Therese Schwartze", "filename"=>"130010" ],
+           [ "title"=>"Three girls from Amsterdam Orphanage", "artist"=>"Therese Schwartze", "filename"=>"130020" ],
+           [ "title"=>"The Bridge at Argenteuile", "artist"=>"Claude Monet", "filename"=>"017080" ],
+           [ "title"=>"Self Portrait", "artist"=>"Vincent Van Gogh", "filename"=>"019170" ],
+           [ "title"=>"Madame Bergeret", "artist"=>"Francois Boucher", "filename"=>"107030" ],
+           [ "title"=>"Interior with Women beside a Linen Cupboard", "artist"=>"Pieter de Hooch", "filename"=>"126020" ],
+           [ "title"=>"The Merry Family", "artist"=>"Jan Steen", "filename"=>"124020" ],
+           [ "title"=>"Self Portrait", "artist"=>"Judith Leyster", "filename"=>"112020" ],
+           [ "title"=>"Portrait of Feyntje van Steenkiste", "artist"=>"Frans Hals", "filename"=>"123020" ]   
+        ];
+        ?>
 
 Tools and Frameworks
 Tools Used
