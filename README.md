@@ -47,13 +47,11 @@ Clone the repository:
 Place the project files in your WAMP Server's www directory:
 
 makefile
-Copy code
 C:\wamp\www\fine-art-meme-maker\
 Start WAMP Server and ensure it's running correctly.
 
 Access the application via your web browser:
         arduino
-        Copy code
         http://localhost/fine-art-meme-maker/index.html
         
 Usage
